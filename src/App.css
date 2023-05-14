@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+.dog-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
