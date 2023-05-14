@@ -41,7 +41,33 @@
   color: #888;
 }
 .dog-parent {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+
+.select-limit {
+  width: 200px;
+  background-color: #3d3d3d;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  /* Add any other desired styles */
+}
+
+.select-limit:hover {
+  background-color: #333;
+}
+
+.select-limit > option {
+  background-color: #242424;
+  color: #fff;
+}
+
+.select-limit > option:hover {
+  background-color: #333;
 }

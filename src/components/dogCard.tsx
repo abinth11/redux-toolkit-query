@@ -9,7 +9,6 @@ interface DogInfo {
 }
 
 const DogCard: FC<DogInfo> = ({ image, breed, lifespan, temperament }) => {
-    console.log(breed)
   return (
     <div className="dog-card">
       <img src={image} alt={breed} className="dog-image" />
